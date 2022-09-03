@@ -1,0 +1,139 @@
+
+.top-container{
+  background-color: #E9DAC1;
+  position:relative;
+  padding-top:100px;
+  }
+  .middle-container{
+    margin-top: 3em;
+  }
+body{
+  text-align: center;/*this doesnt work when we use he width:10p%*/
+  /*Hence we use margin to align*/
+  color: #40514E;
+  margin:0;
+  font-family: 'Merriweather', serif;
+}
+hr{
+  border-style:none;
+  border-top-style: dotted;
+  border-width: 10px;
+  width: 6%;
+  border-color: grey;
+  margin: 75px auto 75px;
+}
+.contact-msg{
+  width:50%;
+  margin:40px auto 60px;
+}
+.contact-me{
+  padding-bottom: 5em;
+}
+h1{
+  color: #472D2D;
+  font-size: 5.625rem;
+  margin:50px auto 0;
+  font-family: 'Satisfy', cursive;
+}
+h2{
+
+  color:#472D2D;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.5rem;
+  padding-bottom: 10px;
+}
+h3{
+  color:#874C62 ;
+}
+.preface{
+  width:50%;
+  margin:auto;
+}
+a{
+  color:#472D2D;
+  font-family: 'Merriweather', serif;
+  margin:10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color:grey;
+}
+span{
+  text-decoration: underline;
+}
+.copy{
+  color: #EAF6F6;
+  font-size: 0.75em;
+  padding: 10px 0;
+}
+.cloud{
+  position: absolute;
+  left:400px;
+  bottom:300px;
+}
+.cloudtop{
+  position: absolute;
+  right:400px;
+  top:50px;
+}
+.codess{
+  width:25%;
+  height: 33%;
+  float: right;
+  margin-left: 1.875em;
+}
+.gify{
+  width: 25%;
+  float: left;
+  margin-right: 1.875em;
+}
+.pro-desc{
+  line-height: 2;
+  margin-bottom: 4em;
+}
+.Profile{
+  width: 30%;
+  margin: auto;
+}
+.sing{
+  text-align: left;
+  width:50%;
+  margin:100px auto 100px;
+  line-height: 2;
+}
+.codes{
+  text-align: left;
+  width: 50%;
+  margin: 100px auto 100px;
+  line-height: 2;
+}
+.bottom-container{
+  background-color: #E9DAC1;
+  padding: 50px 0 20px;
+}
+.btn {
+  background: #f0700e;
+  background-image: -webkit-linear-gradient(top, #f0700e, #d19888);
+  background-image: -moz-linear-gradient(top, #f0700e, #d19888);
+  background-image: -ms-linear-gradient(top, #f0700e, #d19888);
+  background-image: -o-linear-gradient(top, #f0700e, #d19888);
+  background-image: linear-gradient(to bottom, #f0700e, #d19888);
+  -webkit-border-radius: 20;
+  -moz-border-radius: 20;
+  border-radius: 20px;
+  font-family: 'Merriweather', serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #eaf035;
+  background-image: -webkit-linear-gradient(top, #eaf035, #9e8f62);
+  background-image: -moz-linear-gradient(top, #eaf035, #9e8f62);
+  background-image: -ms-linear-gradient(top, #eaf035, #9e8f62);
+  background-image: -o-linear-gradient(top, #eaf035, #9e8f62);
+  background-image: linear-gradient(to bottom, #eaf035, #9e8f62);
+  text-decoration: none;
+}
